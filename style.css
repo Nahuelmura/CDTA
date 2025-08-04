@@ -1,0 +1,318 @@
+
+
+.color_texto {
+    color: red;
+    font-size: 50em;
+}
+
+.posicion_texto {
+    text-align: center;
+    margin: 1em;
+    margin-right: 30em;
+    z-index: 1;
+}
+
+
+
+.color_titulo {
+    color: wheat;
+}
+
+.contenedor_tarjetas {
+
+    height: 70vh;
+    display: grid;
+    place-items: center;
+}
+
+.Imagen_fondo {
+    background-image: url('biblioteca/img/portada_servicios_odontologia2.jpeg');
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+.img_primer_seccion {
+    background-image: url('biblioteca/img/trabajo-juntos.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 96vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.fondo_opaco {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 96vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 0;
+}
+
+.posiscion_logo {
+
+    padding-right: 60em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.imagen_logo {
+    background-image: url('biblioteca/img/cdtafin.png');
+    height: 35em;
+    width: 35em;
+    background-size: contain;
+    background-position: left center;
+
+
+}
+
+.fondo_color_quienes_somos {
+    background-image: url('biblioteca/img/fondo.png');
+    height: 90vh;
+    width: 100vw;
+
+}
+
+.titulo_section {
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    /* margin-bottom: 1.5em; */
+    padding-top: 0.5em;
+
+}
+
+
+.parrafo {
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    margin-bottom: 1.5em;
+
+}
+
+.imagen_seccion {
+    background-image: url('biblioteca/img/niña.jpg');
+    height: 50em;
+    width: 35em;
+    background-size: contain;
+    background-position: left center;
+    padding-right: 60em;
+    background-repeat: no-repeat;
+   
+
+
+}
+
+
+
+.Fondo_integrantes {
+    background-image: url('biblioteca/img/fondo_integrantes.png');
+    height: 70vh;
+    width: 100vw;
+
+}
+
+
+.container {
+
+    padding-top: 3em;
+
+}
+
+
+.card_img {
+
+    background-image: url('biblioteca/img/camila.jpg');
+    height: 11em;
+    width: auto;
+}
+
+.card_img1 {
+
+    background-image: url('biblioteca/img/psiquiatra.jpg');
+    height: 11em;
+    width: auto;
+}
+
+
+.card_img2 {
+
+    background-image: url('biblioteca/img/nutri.jpg');
+    height: 11em;
+    width: auto;
+}
+
+
+.card-title {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+
+.card-text {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.card-custom {
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.card-custom:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+
+.color_nav {
+    background-color: transparent;
+    height: auto;
+}
+
+
+
+.titulo_section_dias {
+ background-image: url('biblioteca/img/fondo_integrantes.png');
+    height: 50vh;
+    width: 100vw;
+
+}
+
+
+.section_dias {
+ background-image: url('biblioteca/img/fondo_tabla.png');
+    height: 60vh;
+    width: 100vw;
+
+}
+
+.form{
+width: 600px;
+background-color: #d679d6;
+padding: 30px;
+margin: auto;
+margin-top: 100px;
+border-radius: 30px;
+
+}
+
+.texto_form{
+
+    font-size: 25px;
+    margin-bottom: 22px;
+    text-align: center;
+    color: #f0f2f0;
+
+}
+
+
+.input{
+
+   width: 100%;
+   background-color: #f0f2f0;
+   padding: 5px;
+   border-radius: 10px;
+   margin-bottom: 10px;
+   border: 1px solid  ;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+   font-size: 15px;
+
+}
+
+.buttom{
+
+width: 100%;
+border-radius: 10px;
+padding: 10px;
+font-size: 18px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: white;
+background-color: #20a5d9;
+box-shadow: 1px 2px 2px black;
+border: 1px #20a5d9;
+}
+
+.buttom:hover {
+
+
+
+background-color:  #e5b0e5;
+;
+}
+
+
+.fondo_form{
+background-image: url("biblioteca/img/escribiendo.jpg");
+height: 60vh;
+width: 100vw;
+ background-size: cover;
+background-position: center;
+
+}
+
+.fondo_opaco_form {
+  
+    top: 0;
+    left: 0;
+   height: 60vh;
+width: 100vw;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 0;
+}
+
+
+.imagen_logo_footer{
+ background-color: #d679d6;
+    height: 10em;
+    width: 100%;
+
+
+}
+
+.text_footer {
+
+     display: flex;
+  justify-content: center; 
+  align-items: center;     
+  height: 100%;           
+  min-height: 150px;  
+
+}
+
+.footer{
+ background-color: #d679d6;
+    height: 10em;
+    width: 100%;
+
+
+    }
+
+    .contenedor
+    {
+padding: 20px;
+align-self: center;
+
+
+    }
