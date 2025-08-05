@@ -395,3 +395,18 @@
     color: white;
 }
 
+.redes{
+    text-decoration: none;
+    font-size: 2em;
+    
+}
+
+
+
+.social-icons {
+    margin: 0 15px;
+  font-size: 2.5rem;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease;  
+}
