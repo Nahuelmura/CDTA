@@ -14,13 +14,13 @@
 <body>
   <nav class="navbar navbar-expand-lg bg-body-tertiary color_nav">
     <div class="container-fluid ">
-      <a class="navbar-brand" href="#">C D T A</a>
+      <a class="navbar-brand mx-auto" href="#">C D T A</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav   ">
+        <ul class="navbar-nav mx-auto  ">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Inicio</a>
           </li>
@@ -46,7 +46,7 @@
 
   <!-- PRIMERA SECCION -->
 
-  <section class="container-fluid img_primer_seccion">
+  <section id="primer" class="container-fluid img_primer_seccion">
 
     <div class="fondo_opaco"></div>
     <div class="posiscion_logo">
@@ -54,13 +54,13 @@
     </div>
   </section>
 
-  <section class="container-fluid fondo_color_quienes_somos">
+  <section id="quienes" class="container-fluid fondo_color_quienes_somos">
 
 
     <div class="row">
 
 
-      <div class="col-md-6">
+      <div class="col-md-6 col-sm-12">
         <h1 class="titulo_section">¿Quienes somos? </h1>
         <p class="parrafo"> Somos CDTA (Centro Dedicado al Abordaje de los Trastornos de la conducta Alimentaria),
           estamos formados por un equipo especializado en la tematica, cuyo objetivo es, lograr un mejor abordaje y
@@ -75,7 +75,7 @@
 
 
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6 col-sm-12">
         <div class="imagen_seccion"></div>
       </div>
 
@@ -87,14 +87,15 @@
   </section>
 
 
-  <section class="Fondo_integrantes">
+
+  <section id="integrantes" class="Fondo_integrantes">
     <h1 class="titulo_section">Integrantes del equipo</h1>
     <div class="container">
 
       <div class="row">
 
-        <div class="col-md-4">
-          <div class="card card-custom" style="width: 18rem;">
+        <div class="col-md-4 mb-4">
+          <div class="card card-custom ">
             <img class="card-img-top card_img">
             <div class="card-body">
               <h5 class="card-title">Camila Servera</h5>
@@ -104,8 +105,8 @@
           </div>
         </div>
 
-        <div class="col-md-4">
-          <div class="card card-custom" style="width: 18rem;">
+        <div class="col-md-4 mb-4">
+          <div class="card card-custom h-100 w-100">
             <img class="card-img-top card_img1">
             <div class="card-body">
               <h5 class="card-title">Jorge Borges</h5>
@@ -117,8 +118,8 @@
 
 
 
-        <div class="col-md-4">
-          <div class="card card-custom" style="width: 18rem;">
+        <div class="col-md-4 mb-4">
+          <div class="card card-custom h-100 w-100 ">
             <img class="card-img-top card_img2">
             <div class="card-body">
               <h5 class="card-title">Juan Domingo Trosero</h5>
@@ -143,11 +144,11 @@
 
 
 
-  <section class="section_dias">
+  <section id="dias" class="section_dias">
 
     <h1 class="titulo_section">Dias y Horarios</h1>
 
-    <div class="container">
+    <div class="container table-responsive">
       <table class="table table-danger table-striped-columns table-hover  table-bordered text-center">
         <thead>
           <tr>
@@ -204,48 +205,53 @@
   </section>
 
 
-  <section class="fondo_form">
-    <div class="fondo_opaco_form">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="form">
-            <h4 class="texto_form">Envia tu consulta</h4>
+<section id="form" class="fondo_form">
+  <div class="fondo_opaco_form">
+    <h1 class="titulo_section">Envia tu consulta</h1>
 
-            <input class="input" type="text" placeholder="ingrese su nombre">
-            <input class="input" type="text" placeholder="ingrese su apellido">
-            <input class="input" type="number" placeholder="ingrese su Telefono">
-            <textarea class="input" placeholder="Ingrese su consulta responderemos a la brevedad" name=""
-              id=""></textarea>
-            <button class="buttom">Enviar</button>
-
-
+    <div class="row">
+      <div class="col-12 col-md-6">
+        <div class="form">
+          <h4 class="texto_form">Envia tu consulta</h4>
+          <div class="form-group m-2">
+            <input class="input" type="text" placeholder="Ingrese su nombre">
           </div>
+          <div class="form-group m-2">
+            <input class="input" type="text" placeholder="Ingrese su apellido">
+          </div>
+          <div class="form-group m-2">
+            <input class="input" type="number" placeholder="Ingrese su teléfono">
+          </div>
+          <div class="form-group m-2">
+            <textarea class="input" placeholder="Ingrese su consulta, responderemos a la brevedad"></textarea>
+          </div>
+          <button class="buttom">Enviar</button>
         </div>
+      </div>
 
-        <div class="col-md-6 ">
-          <div class="imagen_logo"></div>
-        </div>
+      <!-- Logo -->
+      <div class="col-12 col-md-6">
+        <div class="imagen_logo_form"></div>
       </div>
     </div>
-  </section>
 
-  <footer class="footer">
-<div class="contenedor">
-    <h3>Contacto</h3>
-    <ul>
+  </div>
+</section>
+
+  <footer id="footer" >
+    <div class="container-fluid footer">
       <div class="row">
-        <div class="col-md-4">
-      <li>Teléfono: 123-456-7890</li>
-      <li>Email: contacto@tusitio.com</li>
+        <div class="col-md-6 col-sm-12">
+          <p class="texto_footer"></p>
+     
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <p class="texto_footer">Nuestras redes</p>
+               <h3>Facebock<i class="fa-brands fa-facebook"></i> </h3>
+               <h3>Instagram <i class="fa-brands fa-instagram"></i></h3>
+               <h3>Tiktok<i class="fa-brands fa-tiktok"></i></h3>
+        </div>
       </div>
-      <div class="col-md-4">
-      <li>Dirección: Calle 123, Ciudad</li>
-      <li>facebok</li>
-       <li>Instagram</li>
-       </div>
-       </div>
-
-    </ul>
     </div>
   </footer>
 
